@@ -1,0 +1,67 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    padding: 1rem;
+}
+
+.home-content {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #047857; /* Tailwind's green-700 */
+    margin-bottom: 1.5rem;
+}
+
+.home-description {
+    font-size: 1.125rem;
+    color: #374151; /* Tailwind's gray-700 */
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.menu-btn {
+    background-color: #f59e0b; /* Tailwind's yellow-500 */
+}
+
+.menu-btn:hover {
+    background-color: #d97706; /* Tailwind's yellow-600 */
+    transform: scale(1.05);
+}
+
+.booking-btn {
+    background-color: #059669; /* Tailwind's green-600 */
+}
+
+.booking-btn:hover {
+    background-color: #047857; /* Tailwind's green-700 */
+    transform: scale(1.05);
+}
